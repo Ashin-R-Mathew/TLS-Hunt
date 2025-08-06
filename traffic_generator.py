@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Final Working Wireshark TLS Flag Hunt Traffic Generator
-Creates REAL TLS-encrypted traffic with the flag
-"""
 
 from scapy.all import *
 from scapy.layers.tls.record import TLS
@@ -157,4 +153,5 @@ def generate_traffic():
 
 if __name__ == "__main__":
     print("🚀 Final Working Wireshark TLS Flag Hunt Traffic Generator")
+
     generate_traffic()
