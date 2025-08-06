@@ -20,6 +20,12 @@ brew install wireshark
 ```
 
 ## Hints 
-1. The flag is in standard CTF format: FLAG{...}
-2. You'll need to decrypt TLS traffic using the key log file
-3. Look for HTTP application data containing the flag pattern
+- The flag is in standard CTF format: FLAG{...}
+- You'll need to decrypt TLS traffic using the key log file
+- Look for HTTP application data containing the flag pattern
+
+## License 📜
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. ⚖️
+
+Happy Hacking! 🚀
